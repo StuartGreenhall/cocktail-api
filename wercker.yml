@@ -38,7 +38,7 @@ build:
 deploy:
   box: google/cloud-sdk
   steps:
-    - scritpt:
+    - script:
         name: listfiles
         code: ls -al
     - script:
