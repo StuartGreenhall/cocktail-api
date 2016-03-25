@@ -1,6 +1,9 @@
 #OSX things
 .DS_Store
 
+#Wercker build artifacts
+_*
+
 # Logs
 logs
 *.log
