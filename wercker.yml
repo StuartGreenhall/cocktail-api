@@ -53,6 +53,6 @@ deploy:
     - internal/docker-push:
         username: _token
         password: $GCR_AUTH_TOKEN
-        repository: gcr.io/knuth/foo
+        repository: gcr.io/kubernetes-cocktail/cocktail-api
         registry: https://gcr.io
     # - wercker/kubectl@1.1.0:
